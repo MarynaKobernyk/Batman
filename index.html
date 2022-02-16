@@ -11,15 +11,13 @@
 </head>
 <body>
     <header class="header">
-        <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+        <button class="burger"></button>
+
         <nav class="header__navigation navigation">
+            <button class="navigation__close"></button>   
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a class="navigation__link">Главная</a>
+                    <a class="navigation__link navigation__link-active">Главная</a>
                 </li>
                 <li class="navigation__item">
                     <a class="navigation__link" href="video.html">Видео</a>
@@ -33,13 +31,13 @@
 
             <ul class="header__social social">
                 <li class="social__item">
-                    <a href="" class="social__link">fb</a>
+                    <a href="" class="social__link social__link-fb"></a>
                 </li>
                 <li class="social__item">
-                    <a href="" class="social__link">tw</a>
+                    <a href="" class="social__link social__link-twitter"></a>
                 </li>
                 <li class="social__item">
-                    <a href="" class="social__link">in</a>
+                    <a href="" class="social__link social__link-instagram"></a>
                 </li>
             </ul>
         </nav>
@@ -51,7 +49,7 @@
 
     </header>
 
-    <main class="main">
+    <main class="main main-index ">
         <img class="logo" src="img/logo.png" alt="Логотоп к фильму Бэтмен" width="329" height="235">
         
     </main>
